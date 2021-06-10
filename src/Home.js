@@ -1,10 +1,7 @@
 import React from 'react';
 import CarousalContainer from './components/CarousalContainer';
 import './Home.css';
-import {
-	Card, CardImg, CardText, CardBody,
-	CardTitle, CardSubtitle, Button
-  } from 'reactstrap';
+
 
 const Home =() => {
   return (

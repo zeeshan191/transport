@@ -53,7 +53,7 @@ return (
 
  
  </p>
- <a style={{display: "contents", fontStyle:"oblique"}} href="https://www.madcapsolutions.com/" target = "_blank">MADCAP Solutions</a>
+ <NavLink style={{display: "contents", fontStyle:"oblique"}} to="https://www.madcapsolutions.com/" target = "_blank">MADCAP Solutions</NavLink>
  
  {/* <div class="footer-icons">
  
@@ -77,7 +77,7 @@ return (
  <img src="madcaplogo.jpg" style={{width:"74px",height:"63px",marginLeft:"636px",marginBottom:"-50px",marginTop:"0px"}} alt="logo" />
  </div> */}
                     <div className="ast-small-footer-section ast-small-footer-section-1 ast-small-footer-section-equally ast-col-xs-12" style={{textAlign:"center", color:"#92999f",fontSize:"small",fontStyle:"italic"}}>
-                    Copyright © 2021 All rights reserved <a style={{display: "contents", fontStyle:""}} href="https://www.madcapsolutions.com/" target = "_blank" >MADCAP Solutions</a>
+                    Copyright © 2021 All rights reserved <NavLink style={{display: "contents", fontStyle:""}} to="https://www.madcapsolutions.com/" target = "_blank" >MADCAP Solutions</NavLink>
                     </div>
                 </div>          
             </div>
