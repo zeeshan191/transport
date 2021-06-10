@@ -1,0 +1,228 @@
+.header{
+    padding-top: 40px;
+    text-align: center;
+}
+.elementor-section.elementor-section-boxed.elementor-container {
+    max-width: 1140px;
+}
+.elementor-section .elementor-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 13%;
+    margin-left: 13%;
+    position: relative;
+}
+.elementor *, .elementor :after, .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, h1, h2, h3, h4, h5, h6, html, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.elementor-row {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* @media (min-width: 768px){
+.elementor-column.elementor-col-33, .elementor-column[data-col="33"] {
+    width: 33.333%;
+}} */
+.elementor-column, .elementor-column-wrap {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.elementor-column {
+    min-height: 1px;
+}
+.elementor-column-wrap {
+    width: 100%;
+}
+
+
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, h1, h2, h3, h4, h5, h6, html, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+}
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+.elementor-widget {
+    position: relative;
+}
+@media (min-width: 768px){
+.elementor-widget-icon-box.elementor-vertical-align-top .elementor-icon-box-wrapper {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}}
+.elementor-310 .elementor-element.elementor-element-eae4fe6.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 15px;
+}
+.elementor-element.elementor-element-eae4fe6.elementor-view-default .elementor-icon {
+    fill: #0C2A8F;
+    color: #0C2A8F;
+    border-color: #0C2A8F;
+}
+.elementor-310 .elementor-element.elementor-element-eae4fe6 .elementor-icon {
+    font-size: 50px;
+}
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon, .elementor-widget-icon-box.elementor-view-default .elementor-icon {
+    fill: var( --e-global-color-primary );
+    color: var( --e-global-color-primary );
+    border-color: var( --e-global-color-primary );
+}
+.elementor-icon {
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: #818a91;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.elementor-310 .elementor-element.elementor-element-eae4fe6 .elementor-icon i {
+    transform: rotate(
+0deg
+);
+}
+.elementor-icon i, .elementor-icon svg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}
+.fa, .fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.elementor-310 .elementor-element.elementor-element-eae4fe6 .elementor-icon-box-content .elementor-icon-box-title, .elementor-310 .elementor-element.elementor-element-eae4fe6 .elementor-icon-box-content .elementor-icon-box-title a {
+    font-family: "Roboto",Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.elementor-310 .elementor-element.elementor-element-eae4fe6 .elementor-icon-box-content .elementor-icon-box-title {
+    color: #0B2C76;
+}
+.entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+    margin-bottom: 20px;
+}
+
+.entry-content h3, h3 {
+    color: #0B2C76;
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+.elementor-310 .elementor-element.elementor-element-eae4fe6 .elementor-icon-box-content .elementor-icon-box-description {
+    color: #0B2C76;
+}
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+    /* color: var( --e-global-color-text ); */
+    font-family: var( --e-global-typography-text-font-family ),Sans-serif;
+    font-weight:600;
+}
+.elementor-widget-icon-box .elementor-icon-box-description {
+    margin: 0;
+    padding-top: 20px;
+}
+.elementor-310 .elementor-element.elementor-element-be3874a.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 15px;
+}
+
+.elementor-icon {
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    color: rgb(12, 42, 143);
+    font-size: 50px;
+    text-align: center;
+}
+.elementor-310 .elementor-element.elementor-element-be3874a.elementor-view-framed .elementor-icon, .elementor-310 .elementor-element.elementor-element-be3874a.elementor-view-default .elementor-icon {
+    fill: #0C2A8F;
+    color: #0C2A8F;
+    border-color: #0C2A8F;
+}
+.elementor-310 .elementor-element.elementor-element-be3874a .elementor-icon {
+    font-size: 50px;
+}
+.elementor-310 .elementor-element.elementor-element-be3874a .elementor-icon i {
+    transform: rotate(
+0deg
+);
+}
+.elementor-icon i, .elementor-icon svg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}
+.fa, .fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.elementor-icon elementor-animation{
+    fill: #0C2A8F;
+    color: #0C2A8F;
+    border-color: #0C2A8F;
+}
+.span{
+    border: 0;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
